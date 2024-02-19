@@ -10,7 +10,7 @@ let score = 0;
 const questions = [
     {
         question: 'Joske, Louis en Maarten gaan op bezoek bij hun oma en opa. Waar wonen ze?',
-        answer: 'Antwerpen'
+        answer: 'Vossem'
     },
     // Add more questions here
 ];
@@ -50,5 +50,5 @@ function showNextQuestion() {
 function showResult() {
     quizContainer.style.display = 'none';
     resultContainer.style.display = 'block';
-    resultContainer.innerHTML = `<p>Your score is: ${score} out of ${questions.length}</p>`;
+    resultContainer.innerHTML = `<p>Je score is: ${score} op ${questions.length}</p>`;
 }
