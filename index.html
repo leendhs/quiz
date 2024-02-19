@@ -2,15 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>the most impossible quiz</title>
+    <title>Onmogelijke Quiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>The most impossible quiz</h1>
-    <button>start</button>
+    <div class="container">
+        <h1>Welkom bij de meest onmogelijke quiz</h1>
+        <button id="startBtn">Start</button>
+        <div id="quiz" style="display: none;">
+            <p id="question"></p>
+            <input type="text" id="answer" placeholder="Type your answer here">
+            <button id="nextBtn">Volgende</button>
+        </div>
+        <div id="result" style="display: none;">
+            <p id="score"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
+
 
 
 

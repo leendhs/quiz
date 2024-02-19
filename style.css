@@ -1,0 +1,12 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#quiz, #result {
+    margin-top: 20px;
+}
+
+#answer {
+    margin-top: 10px;
+}
