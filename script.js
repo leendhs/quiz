@@ -12,7 +12,26 @@ const questions = [
         question: 'Joske, Louis en Maarten gaan op bezoek bij hun oma en opa. Waar wonen ze?',
         answer: 'Vossem'
     },
-    // Add more questions here
+
+    {
+        question: 'De bus vertrekt vanuit Leuven naar Mechelen en heeft in totaal 15 stops, waar hij elke keer 45 seconden blijft staan. Hoe oud is de buschauffeur?',
+        answer: '53'
+    },
+
+    {
+        question: 'Emma en Elena zijn sinds het derde kleuterklasje beste vriendinnen. Ze zijn ondertussen alle twee 22 jaar. In welke winkel kopen ze hun kleren?',
+        answer: 'Mango'
+    },
+
+    {
+        question: 'Liam werd geboren op 15 september 2001. Zijn moeder heet Lisa en zijn vader heet Rudy. Hij woont in Antwerpen en heeft 2 kleinere zussen. Welke richting studeert Liam?',
+        answer: 'Criminologie'
+    },
+
+    {
+        question: 'Hanne zit al 15 jaar in de scouts en heeft er de tijd van haar leven. Spijtig genoeg kan ze het niet meer combineren met haar studies, dus besliste ze om dit jaar te stoppen. Waar heeft Hanne een litteken van te vallen toen ze 3 jaar was?',
+        answer: 'Kin'
+    },
 ];
 
 startBtn.addEventListener('click', startQuiz);
