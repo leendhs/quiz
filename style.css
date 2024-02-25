@@ -10,3 +10,223 @@
 #answer {
     margin-top: 10px;
 }
+
+#question {
+    color: black;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#startBtn{
+    width: 100px;
+    height: 40px;
+}
+
+#result p{
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    margin-top: 100px;
+    background-image: url("https://i.pinimg.com/736x/76/5e/38/765e384293c82e0517d314c06bd7fee4.jpg");
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.een {
+    width: 200px;
+    position: relative;
+    top: -120px;
+    left: -30px;
+    z-index: -1;
+}
+
+.twee {
+    width: 100px;
+    position: relative;
+    top: -150px;
+    left: 50px;
+    z-index: -1;
+}
+
+.drie {
+    width: 200px;
+    position: relative;
+    top: -100px;
+    left: 80px;
+    z-index: -1;
+}
+
+.vier {
+    width: 100px;
+    position: relative;
+    z-index: -1;
+    top: -80px;
+    left: 100px;
+}
+
+.vijf {
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: -100px;
+}
+
+.zes {
+    width: 80px;
+    position: relative;
+    top: -200px;
+    left: -100px;
+    z-index: -1;
+}
+
+.zeven {
+    width: 190px;
+    position: relative;
+    left: -100px;
+    z-index: -1;
+}
+
+.acht {
+    width: 200px;
+    position: relative;
+    top: 10px;
+}
+
+.negen {
+    width: 150px;
+    position: relative;
+    top: -80px;
+    left: 80px;
+    z-index: -1;
+}
+
+.tien {
+    width: 100px;
+    position: relative;
+    top: -650px;
+    left: 150px;
+    z-index: -1;
+}
+
+@media (min-width: 900px){   
+    .een{
+        left: 100px;
+        z-index: -1;
+    }
+
+    .twee {
+        top: -150px;
+        left: 150px;
+        z-index: -1;
+    }
+    
+    .drie {
+        top: -180px;
+        left: 250px;
+        z-index: -1;
+    }
+    
+    .vier {
+        z-index: -1;
+        top: -80px;
+        left: 0px;
+    }
+    
+    .vijf {
+        top: 50px;
+        left: -300px;
+    }
+    
+    .zes {
+        top: 230px;
+        left: -100px;
+        z-index: -1;
+    }
+    
+    .zeven {
+        left: -80px;
+        z-index: -1;
+    }
+    
+    .acht {
+        top: 100px;
+        left: -80px;
+    }
+    
+    .negen {
+        top: -50px;
+        left: 80px;
+        z-index: -1;
+    }
+    
+    .tien {
+        top: -650px;
+        left: 150px;
+        z-index: -1;
+    }
+    
+}
+
+
+@media (min-width: 1400px){
+    .een{
+        left: 100px;
+        z-index: -1;
+    }
+
+    .twee {
+        top: -150px;
+        left: 350px;
+        z-index: -1;
+    }
+    
+    .drie {
+        top: -70px;
+        left: 750px;
+        z-index: -1;
+    }
+    
+    .vier {
+        z-index: -1;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .vijf {
+        top: 200px;
+        left: -300px;
+    }
+    
+    .zes {
+        top: 230px;
+        left: -100px;
+        z-index: -1;
+    }
+    
+    .zeven {
+        left: -80px;
+        z-index: -1;
+    }
+    
+    .acht {
+        top: 200px;
+        left: -80px;
+    }
+    
+    .negen {
+        top: 100px;
+        left: 80px;
+        z-index: -1;
+    }
+    
+    .tien {
+        top: -650px;
+        left: 150px;
+        z-index: -1;
+    }
+        
+    }
