@@ -19,29 +19,65 @@
 }
 
 #startBtn{
-    width: 100px;
-    height: 40px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: brown;
+    border: solid aliceblue;
+
+}
+
+#question{
+    color:rgb(13, 219, 242) ;
+    text-shadow: 0 0 6px black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 28px;
+    
 }
 
 #result p{
-    font-size: 32px;
-    color: black;
+    font-size: 65px;
+    color:rgb(13, 219, 242) ;
+    text-shadow: 0 0 10px black;
     font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#nextBtn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: brown;
+    color: aliceblue;
+    border: white solid 2px;
 }
 
 body {
     margin-top: 100px;
     background-image: url("https://i.pinimg.com/736x/76/5e/38/765e384293c82e0517d314c06bd7fee4.jpg");
-    color: white;
+    color:rgb(27, 243, 225);
+    text-shadow: 0 0 10px black;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20px;
 }
+
+.fotos{
+    width:500px;
+    height: 40px;
+}
+
+#answer{
+    padding: 10px;
+    border-radius: 20px;
+}
+
 
 .een {
     width: 200px;
     position: relative;
     top: -120px;
     left: -30px;
-    z-index: -1;
+    z-index: -2;
 }
 
 .twee {
@@ -49,7 +85,7 @@ body {
     position: relative;
     top: -150px;
     left: 50px;
-    z-index: -1;
+    z-index: -2;
 }
 
 .drie {
@@ -57,13 +93,13 @@ body {
     position: relative;
     top: -100px;
     left: 80px;
-    z-index: -1;
+    z-index: -2;
 }
 
 .vier {
     width: 100px;
     position: relative;
-    z-index: -1;
+    z-index: -2;
     top: -80px;
     left: 100px;
 }
@@ -73,6 +109,7 @@ body {
     position: relative;
     top: 50px;
     left: -100px;
+    z-index: -2;
 }
 
 .zes {
@@ -80,20 +117,21 @@ body {
     position: relative;
     top: -200px;
     left: -100px;
-    z-index: -1;
+    z-index: -2;
 }
 
 .zeven {
     width: 190px;
     position: relative;
     left: -100px;
-    z-index: -1;
+    z-index: -2;
 }
 
 .acht {
     width: 200px;
     position: relative;
     top: 10px;
+    z-index: -2;
 }
 
 .negen {
@@ -101,7 +139,7 @@ body {
     position: relative;
     top: -80px;
     left: 80px;
-    z-index: -1;
+    z-index: -2;
 }
 
 .tien {
@@ -109,29 +147,34 @@ body {
     position: relative;
     top: -650px;
     left: 150px;
-    z-index: -1;
+    z-index: -2;
 }
 
 @media (min-width: 900px){   
+
+    .fotos{
+        width:1080px;
+        height:100px;
+    }
     .een{
         left: 100px;
-        z-index: -1;
+        z-index: -2;
     }
 
     .twee {
         top: -150px;
         left: 150px;
-        z-index: -1;
+        z-index: -2;
     }
     
     .drie {
         top: -180px;
         left: 250px;
-        z-index: -1;
+        z-index: -2;
     }
     
     .vier {
-        z-index: -1;
+        z-index: -2;
         top: -80px;
         left: 0px;
     }
@@ -139,59 +182,65 @@ body {
     .vijf {
         top: 50px;
         left: -300px;
+        z-index: -2;
     }
     
     .zes {
         top: 230px;
         left: -100px;
-        z-index: -1;
+        z-index: -2;
     }
     
     .zeven {
         left: -80px;
-        z-index: -1;
+        z-index: -2;
     }
     
     .acht {
         top: 100px;
         left: -80px;
+        z-index: -2;
     }
     
     .negen {
         top: -50px;
         left: 80px;
-        z-index: -1;
+        z-index: -2;
     }
     
     .tien {
         top: -650px;
         left: 150px;
-        z-index: -1;
+        z-index: -2;
     }
     
 }
 
 
 @media (min-width: 1400px){
+    .fotos{
+        width:1750px;
+        height: 250px;
+    }
     .een{
         left: 100px;
-        z-index: -1;
+        z-index: -2;
     }
 
     .twee {
         top: -150px;
         left: 350px;
-        z-index: -1;
+        z-index: -2;
     }
     
     .drie {
         top: -70px;
         left: 750px;
-        z-index: -1;
+        z-index: -2;
     }
     
     .vier {
-        z-index: -1;
+        z-index: -2;
         top: 0px;
         left: 0px;
     }
@@ -199,34 +248,36 @@ body {
     .vijf {
         top: 200px;
         left: -300px;
+        z-index: -2;
     }
     
     .zes {
         top: 230px;
         left: -100px;
-        z-index: -1;
+        z-index: -2;
     }
     
     .zeven {
         left: -80px;
-        z-index: -1;
+        z-index: -2;
     }
     
     .acht {
         top: 200px;
         left: -80px;
+        z-index: -2;
     }
     
     .negen {
         top: 100px;
         left: 80px;
-        z-index: -1;
+        z-index: -2;
     }
     
     .tien {
         top: -650px;
         left: 150px;
-        z-index: -1;
+        z-index: -2;
     }
         
     }
